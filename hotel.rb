@@ -32,10 +32,8 @@ class Hotel
       "Quantity of rooms: #{number_of_rooms}"
   end
 
-   def query
+  def query
     print "Which hotel are you looking for?"
     gets.chomp
   end
 end
-
-#HotelDatabase.new("hotels.csv")
